@@ -1,6 +1,11 @@
 {
   "yaml.schemas": {
     "./schemas/githubAction.json": [".github/workflows/**/*.yaml", "."],
-    "https://json.schemastore.org/eslintrc.json": "file:///home/aboo-umair/Desktop/project/matchapp-devops/.github/workflows/deploy.yml"
+    "file:///home/aboo-umair/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i",
+    "https://json.schemastore.org/eslintrc.json": [
+      "file:///home/aboo-umair/Desktop/project/matchapp-devops/.github/workflows/deploy.yml",
+      "file:///home/aboo-umair/Desktop/project/matchapp-devops/.github/workflows/destroy.yml",
+      "file:///home/aboo-umair/Desktop/project/matchapp-devops/deploy.yml"
+    ]
   }
 }
