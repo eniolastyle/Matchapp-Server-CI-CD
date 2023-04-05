@@ -8,10 +8,10 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirement.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Expose port 5000 for this Flask app
-EXPOSE 5000
+EXPOSE 8080
 
 # Start the Flask app
 CMD ["python3", "app.py"]
