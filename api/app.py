@@ -13,7 +13,7 @@ CORS(app, resources={r"/*": {"origins": "*", "allow_headers": "Content-Type"}})
 @app.route('/', methods=['GET'])
 @cross_origin()
 def home():
-    return '<h3>Salaam, (peace) welcome to matchapp api</h3>'
+    return '<h3 style="text-align: center; margin-top: 40px;">Salaam, (peace) welcome to matchapp api</h3>'
 
 @app.route('/match', methods=['POST', 'OPTIONS'])
 @cross_origin()
